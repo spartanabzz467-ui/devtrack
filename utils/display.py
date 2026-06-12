@@ -17,7 +17,7 @@ def print_users(users: list[User]):
         console.print("[yellow]No users found. Add one with: add-user --name 'Name'[/yellow]")
         return
 
-    table = Table(title="👥 All Users", box=box.ROUNDED, show_lines=True)
+    table = Table(title=" All Users", box=box.ROUNDED, show_lines=True)
     table.add_column("ID", style="dim", width=6)
     table.add_column("Name", style="bold cyan")
     table.add_column("Email", style="green")
@@ -41,7 +41,7 @@ def print_projects(user: User):
         console.print(f"[yellow]No projects for {user.name}. Add one with: add-project --user '{user.name}' --title 'Title'[/yellow]")
         return
 
-    table = Table(title=f"📁 Projects for {user.name}", box=box.ROUNDED, show_lines=True)
+    table = Table(title=f" Projects for {user.name}", box=box.ROUNDED, show_lines=True)
     table.add_column("ID", style="dim", width=6)
     table.add_column("Title", style="bold cyan")
     table.add_column("Description")
@@ -69,7 +69,7 @@ def print_tasks(project: Project):
         console.print(f"[yellow]No tasks for '{project.title}'. Add one with: add-task --project '{project.title}' --title 'Task'[/yellow]")
         return
 
-    table = Table(title=f"✅ Tasks for '{project.title}'", box=box.ROUNDED, show_lines=True)
+    table = Table(title=f" Tasks for '{project.title}'", box=box.ROUNDED, show_lines=True)
     table.add_column("ID", style="dim", width=6)
     table.add_column("Title", style="bold")
     table.add_column("Description")

@@ -1,15 +1,15 @@
-# DevTrack CLI 🗂️
+# DevTrack CLI 
 
 > A Python-based command-line tool for managing users, projects, and tasks.
 
 ## Features
 
-- ✅ Create and manage **users**, **projects**, and **tasks** from the terminal
-- 💾 Persistent storage via JSON — data survives restarts
-- 📊 Project progress tracking (e.g. `50% — 2/4 tasks done`)
-- 🎨 Formatted, color-coded tables powered by [`rich`](https://github.com/Textualize/rich)
-- 🔍 Filter tasks by status: `pending`, `completed`, or `all`
-- 🧪 Unit tests with `pytest`
+-  Create and manage **users**, **projects**, and **tasks** from the terminal
+- Persistent storage via JSON — data survives restarts
+- Project progress tracking (e.g. `50% — 2/4 tasks done`)
+- Formatted, color-coded tables powered by [`rich`](https://github.com/Textualize/rich)
+-  Filter tasks by status: `pending`, `completed`, or `all`
+-  Unit tests with `pytest`
 
 ---
 
